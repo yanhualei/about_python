@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/aa/.idea/aa.iml" filepath="$USER_HOME$/Desktop/aa/.idea/aa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spider_11.21/.idea/spider_11.21.iml" filepath="$PROJECT_DIR$/../spider_11.21/.idea/spider_11.21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../基础学习/.idea/基础学习.iml" filepath="$PROJECT_DIR$/../基础学习/.idea/基础学习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/技术模块.iml" filepath="$PROJECT_DIR$/.idea/技术模块.iml" />
+    </modules>
+  </component>
+</project>

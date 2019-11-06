@@ -1,0 +1,13 @@
+# 安装lxml：pip install lxml
+from lxml import etree
+import requests
+
+response = requests.get("https://www.baidu.com").decode()
+html = etree.HTML(response)  # 构造了一个XPath解析对象
+......
+利用xpath来定位元素节点
+......
+
+
+etree.HTML():构造了一个XPath解析对象并对HTML文本进行自动修正。
+etree.tostring()：输出修正后的结果，类型是bytes
