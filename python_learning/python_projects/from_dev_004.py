@@ -1,3 +1,4 @@
-my_list = [10,16,4.5,3.4,2.9,9.1,8,5,7]
-result = sorted(my_list)
+import re
+
+result = re.findall(r"(\w+\.woff)","1231352345.eot")
 print(result)
