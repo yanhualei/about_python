@@ -4,11 +4,8 @@ dict = {"name": "小明",
         "height": 1.75,
         "sex":"man"}
 
-print(dict)
-
 # 取值
 print("取出key=name的value为：",dict["name"])
-# print("取出索引为0的字典的key：",dict[1])
 
 # 增加/修改键值对
 # 当key不存在时，键值对才会增加，当key存在，则为修改
@@ -17,20 +14,22 @@ dict["grade"] = 3
 # 修改
 dict["name"] = "老王"
 print(dict)
-#删除
+#删除键值对
 dict.pop("grade")
+# 或者 del dic["grade"]
 
 # 统计键值对的数量（字典的长度）
 print("字典长度为：",len(dict))
-# 合并键值对
-print("合并前的字典为：",dict)
+
+# 两个字典合并（如果后面的字典与前面字典有相同的key，则会发生覆盖）
 new_dict={"pifu":"yellow",
           "age":30}
 dict.update(new_dict)
 print("合并后的新字典为：",dict)
 
 #删除字典
-dict.clear()
+dict.clear()  # 清空字典内容
+#  del dict  # 这才是删除字典，从内存中删除这个字典对象
 print(len(dict))
 
 test_list=[
@@ -52,10 +51,9 @@ for i in test_list:
         print("老王的电话是：",i["phone"])
 
 
-dic1={"name":"laowang",
-     "age":30,
-     "phone":120,
-     "QQ":111543212}
-print(dic1.values()) # 获取字典所有的值
-print(dic1.keys())  # 获取字典的所有键
-print(dic1.items())  # 获取字典所有的键值对
+my_dict = {"a":1,"b":2,"c":"python"}
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())  # 返回一个可遍历的对象dict_items
+# print(type(my_dict.items()))
+print([(k,v) for k,v in my_dict.items()])

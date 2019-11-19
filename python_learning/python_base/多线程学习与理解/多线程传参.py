@@ -7,7 +7,7 @@ print("演示多线程全局变量共享和参数传递")
 def test1(number):
     # 修改全局变量的指向的时候，需要在函数内部用global声明一下
     # 如果num是个可变变量，例如字典或者列表，则不用global声明
-    global num
+    global num,num2
     num += num2
     print("-----thread1:%s------"%num)
 def test2(number):

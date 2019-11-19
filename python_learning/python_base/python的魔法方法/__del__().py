@@ -6,7 +6,6 @@ import time
 
 class Animal:
     def __init__(self,name):  # 初始化方法，创建完对象后会直接调用
-        print("__init__方法被调用")
         self.__name = name
 
     def __del__(self):# 析构方法,当对象被删除时，会自动被调用
@@ -22,7 +21,7 @@ cat = Animal('white')
 cat2 = cat
 cat3 = cat
 
-print(sys.getrefcount(cat))
+print(sys.getrefcount(cat))  # 打印cat引用计数
 print("---马上 删除cat对象")
 del cat  # 结果显示，删除cat对象时，不会调用del方法，因为white还有其他引用
 print("---马上 删除cat2对象")

@@ -1,39 +1,60 @@
 import re
+
 import requests
-from fontTools.ttLib import TTFont
+from requests.exceptions import ConnectionError
 
-url = 'https://maoyan.com/'
-headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36",
-           }
-base_font  = TTFont("base.woff")
-base_font_list = base_font.getGlyphOrder()[2:]
-base_font_dict ={"uniE187":"7","uniF651":"1","uniF878":"3","uniE8CD":"4","uniEA40":"2",
-            "uniF871":"0","uniEB3E":"8","uniE20E":"6","uniEAE3":"5","uniF17E":"9"}
-
-response = requests.get(url, headers=headers).content.decode()
-font_file_eot = re.findall(r'vfile\.meituan\.net\/colorstone\/(\w+\.eot)', response)[0]
-font_file_woff = re.findall(r'vfile\.meituan\.net\/colorstone\/(\w+\.woff)', response)[0]
-font_file_list =[font_file_eot,font_file_woff]
-print(font_file_list)
-font_url_list = []
-for i in font_file_list:
-    font_url = 'http://vfile.meituan.net/colorstone/' + i
-    new_file = requests.get(font_url,headers=headers)
-    with open('{}'.format(i), 'wb') as f:
-        f.write(new_file.content)
-
-new_font = TTFont(font_file_woff)
-new_list = new_font.getGlyphOrder()[2:]
-print(new_list)
-new_dict = {}
-for new_name in new_list:
-    obj2 = new_font['glyf'][new_name]
-    for base_name in base_font:
-        obj1 = base_font['glyf'][base_name]
-        if obj1 == obj2:
-            new_dict[new_name] = base_font[base_name]
-print(new_dict)
+base_headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+    'Accept-Encoding': 'gzip, deflate, sdch',
+    'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7'
+}
 
 
+def get_page(url, options={}):
+    """
+    抓取代理
+    :param url:
+    :param options:
+    :return:
+    """
+    headers = dict(base_headers, **options)
+    print('正在抓取', url)
+    try:
+        response = requests.get(url, headers=headers)
+        print('抓取成功', url, response.status_code)
+        if response.status_code == 200:
+            # print(response.text)
+            return response.text
+    except ConnectionError:
+        print('抓取失败', url)
+        return None
 
 
+def crawl_data5u():
+    start_url = 'http://www.data5u.com'
+    headers = {
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        'Cache-Control': 'max-age=0',
+        'Connection': 'keep-alive',
+        'Cookie': 'JSESSIONID=72B2A17CE717602D8964F633FC2A1871',
+        'Host': 'www.data5u.com',
+        'Referer': 'http://www.data5u.com/free/index.shtml',
+        'Upgrade-Insecure-Requests': '1',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+    }
+    html = get_page(start_url, options=headers)
+    if html:
+        # re_ip_address = re.findall(r"\d+\.\d+\.\d+\.\d+",html)
+        # ip_address = re.compile('<span><li>.*?</li><span></span><span style="width: 100px;"><li class="port GEAGE">(\d+)</li></span>', html)
+        # re_ip_address = ip_address.findall(html)
+        ip_address = re.compile("<span><li>(.*?)</li></span>\s+<span .*?><li .*?>(\d+)</li></span>", re.M)
+        re_ip_address = ip_address.findall(html)
+        print(re_ip_address)
+        for address, port in re_ip_address:
+            result = address + ':' + port
+            print(result.replace(' ', ''))
+
+if __name__ == '__main__':
+    crawl_data5u()

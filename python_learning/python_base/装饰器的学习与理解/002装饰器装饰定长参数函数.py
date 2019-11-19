@@ -2,10 +2,10 @@ def test1(func):
     def test2(a):
         print("--权限验证1--")
         print("--权限验证2--")
-        return func(a)  # func==>now==>print('2016-3-25')
+        return func(a)
     return test2
 
-@test1 # = now = test1(now)
+@test1
 def now(a):
     print(a)
 now(2)

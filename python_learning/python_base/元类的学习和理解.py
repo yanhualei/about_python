@@ -4,13 +4,14 @@
 # 元类的作用： 创建类
 # 自定义元类作用：修改类的方法和属性，改变类的创建过程
 
-"""
+
 class test1(object):
     ...
     bar="bar"
-type("test1",(object),{bar:"Bar"})
 
-"""
+test = type("test1",(object,),{"bar":print("我是元类type创建的类")})
+print(type(test))
+test.bar
 
 """
 orm:对象关系映射（object relationship mapping）
