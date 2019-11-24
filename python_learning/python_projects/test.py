@@ -1,10 +1,14 @@
-import os
-def print_directory_contents(sPath):  # 递归获取某个目录下的所有文件
-    for sChild in os.listdir(sPath):                
-        sChildPath = os.path.join(sPath,sChild)
-        if os.path.isdir(sChildPath):
-            print_directory_contents(sChildPath)
-        else:
-            print(sChildPath)
+import requests
+import unittest
 
-print_directory_contents("/home/oldeleven/PycharmProjects/about_python")
+class V2exAPITestCase(unittest.TestCase):
+
+    def test_node_api(self):
+        url = "https://www.v2ex.com/api/nodes/show.json"
+        querystring = {"name":"python"}
+        response = requests.request("GET", url, params=querystring).json()
+        self.assertEqual(response["name"],'python')
+        self.assertEqual(response['id'], 90)
+
+if __name__ == '__main__':
+    unittest.main()

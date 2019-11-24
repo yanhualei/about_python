@@ -65,7 +65,7 @@ def main():
     tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # 2. 绑定
-    tcp_server_socket.bind(("192.168.253.1", 9999))
+    tcp_server_socket.bind(("", 9999))
 
     # 3. 变为监听套接字
     tcp_server_socket.listen(128)
