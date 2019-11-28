@@ -3,7 +3,7 @@ import asyncio
 
 async def do_some_work(x):
     print("Waiting " + str(x))
-    await asyncio.sleep(x)
+    await asyncio.sleep(x)  # asyncio.sleep(x)：模拟耗时操作
 
 def done_callback(futu):
     print('Done')
