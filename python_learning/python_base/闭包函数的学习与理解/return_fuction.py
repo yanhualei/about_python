@@ -24,7 +24,7 @@ def count():  # 外围函数
     for i in range (1,4):  # i=[1,2,3]
         def f():
             return i*i
-        L.append(f)  #
+        L.append(f)  #闭包函数此时外部函数只是指向了f函数并没有将参数带进去运行,只是到了最后一次去寻找外部函数的参数
     return L
 #代码解析：为什么结果出现[999]：因为for循环的时候L列表保存的是[def f():return i*i,def f():return i*i,def f():return i*i],
 # 闭包函数，外层函数全部运行结束，才会进入内部函数执行，也就是说内部函数是不会执行的，外部函数执行完也就是i=3的时候，所以结果是[999]

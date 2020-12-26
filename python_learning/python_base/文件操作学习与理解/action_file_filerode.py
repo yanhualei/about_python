@@ -14,9 +14,9 @@ print(os.path.abspath("testdir"))
 # 文件删除
 # os.remove("f:/python/爬虫.jpg")
 # 列出当前目录的所有文件夹和文件
-print([x for x in os.listdir("../")])
+print([x for x in os.listdir("./")])
 # 列出当前目录的所有文件
-print([x for x in os.listdir() if os.path.isfile(x)])
+print([x for x in os.listdir(os.path.dirname(__file__)) if os.path.isfile(x)])
 
 
 

@@ -1,5 +1,5 @@
 
-
+# 二分查找是基于排好序的序列
 def HalfSearch(target,my_list,left,right):
     """
     :param target: 目标值

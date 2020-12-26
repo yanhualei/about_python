@@ -11,7 +11,7 @@ class test1(object):
 
 test = type("test1",(object,),{"bar":print("我是元类type创建的类")})
 print(type(test))
-test.bar
+# test.bar
 
 """
 orm:对象关系映射（object relationship mapping）

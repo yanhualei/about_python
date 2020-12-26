@@ -12,13 +12,17 @@ class  Test_repr(object):
         self.time = datetime.datetime.now()
 
     def __repr__(self):  # 用于格式化输出，执行print(obj)时，会自动调用
-        return "The time is:{}".format(self.time)
+        return "The repr_time is:{}".format(self.time)
+
+    # def __str__(self):   # 用于格式化输出，执行print(obj)时，会自动调用
+    #     return "The str_time is:{}".format(self.time)
 
 
 
 test_str = Test_repr()
-print(repr(test_str))
-print(str(test_str))
+print(test_str)
+# print(repr(test_str))
+# print(str(test_str))
 
 # 结果为什么打印的是一样的，原因是print会自动调用__str__这个魔法方法
 # 验证这两个魔法方法不一样之处，可用python console

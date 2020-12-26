@@ -7,7 +7,8 @@ async def do_some_work(x):
     return  "well down"
 
 def done_callback(futu):
-    print('Done')
+    print('Done 6'
+          '')
 
 loop = asyncio.get_event_loop()  # 创建循环事件
 futu = asyncio.ensure_future(do_some_work(3))  # 把携程对象封装程future

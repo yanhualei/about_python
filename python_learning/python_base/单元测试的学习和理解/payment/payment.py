@@ -12,6 +12,8 @@ class PayApi(object):
         data = {"card": card, "amount": amount}
         response = requests.post(pay_url, data=data) # 请求第三方支付接口
         return response # 返回状态码
+
+
     def pay(self, user_id, card, amount):
         """
         我们自己的支付接口

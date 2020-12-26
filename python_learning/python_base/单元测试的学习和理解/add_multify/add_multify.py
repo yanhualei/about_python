@@ -7,4 +7,5 @@ class Method(object):
         return add_result,multify_result
 
     def multify(self,x,y):
-        return x*y
+        # return x*y
+        pass

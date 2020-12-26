@@ -2,64 +2,361 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a688f83b-00f7-40d4-9b3a-45c832c25f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/list学习与理解/将学生随机分成三个人为一组的方案.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map_reduce学习与理解/map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的魔法方法/__call__().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的魔法方法/__del__().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的魔法方法/__init__().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的魔法方法/__new__().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的魔法方法/__str__().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings字符串操作/find.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings字符串操作/strings的截取与拼接.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeit代码性能分析工具/timeit.timeit().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/1000以内完全数/1000以内完全数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/test001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/二叉树/二叉树的创建与遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/兔子数列（斐波那契数列）/斐波那契数列（递归实现）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/兔子数列（斐波那契数列）/经典生兔子问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/字符取反问题/字符取反切片方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/字符取反问题/字符取反递归方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/找不同/两个列表a，b的相同元素和不同元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../learn_projects/汉诺塔/hanoi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_reduce学习与理解/map_reduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/map_reduce学习与理解/reduce.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorted排序学习与理解/sorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorted排序学习与理解/sorted.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings字符串的切片/find.py" beforeDir="false" afterPath="$PROJECT_DIR$/list学习与理解/列表推导式的学习与理解.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings字符串的切片/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/strings字符串操作/strings切片.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urllib练习与理解/urllib.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/while学习与理解/e_trangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/while学习与理解/e_trangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yield的学习与理解/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/yield的学习与理解/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/01-自己实现一个可以迭代的对象-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/02-自己实现一个可以迭代的对象-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/03-自己实现一个可以迭代的对象-3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/04-自己实现一个可以迭代的对象-4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/05-自己实现一个可以迭代的对象-5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/06-fibonacci-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/07-fibonacci-2-迭代器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/08-使用生成器完成feibonacii.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/09-生成器的研究.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/10-通过异常判断生成器已经结束.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/11-通过send来启动生成器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/12-使用yield完成多任务.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/13-使用greenlet完成多任务.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/14-使用gevent实现多任务.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/15-gevent打补丁.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/协程的学习和理解/4-上课代码/python-07/downloader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/多进程的学习和理解.py" beforeDir="false" afterPath="$PROJECT_DIR$/多进程的学习和理解/多进程的学习和理解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/range()/range().py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_datetime/my_datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_datetime/my_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程学习与理解/多线程执行顺序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程学习与理解/线程池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/磁盘_内存_cpu监控/内存.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/普通实例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/迭代器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asyncio的学习和理解/asyncio的callback回调函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/asyncio的学习和理解/asyncio的callback回调函数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatime/datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/元类的学习和理解.py" beforeDir="false" afterPath="$PROJECT_DIR$/元类的学习和理解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多线程学习与理解/守护子线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/多线程学习与理解/守护子线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/__future__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/__phello__.foo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_bootlocale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_collections_abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_compat_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_compression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_dummy_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_markupbase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_osx_support.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_pydecimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_pyio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_sitebuiltins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_strptime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_sysconfigdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_threading_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/_weakrefset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/aifc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/antigravity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/argparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/ast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/asynchat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/asyncore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/base64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/bdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/binhex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/bisect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/bz2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/cProfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/calendar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/cgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/cgitb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/chunk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/codecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/codeop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/colorsys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/compileall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/configparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/contextlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/copyreg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/crypt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/decimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/difflib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/dis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/doctest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/dummy_threading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/enum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/filecmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/fileinput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/fnmatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/fractions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/ftplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/functools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/genericpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/getopt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/getpass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/gettext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/glob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/gzip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/hashlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/heapq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/hmac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/imaplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/imghdr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/imp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/inspect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/linecache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/locale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/lzma.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/macpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/macurl2path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/mailbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/mailcap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/mimetypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/modulefinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/netrc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/nntplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/ntpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/nturl2path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/opcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/operator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/optparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pathlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pickletools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pipes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pkgutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/platform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/plistlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/poplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/posixpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pstats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/py_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pyclbr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/pydoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/quopri.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/reprlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/rlcompleter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/runpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sched.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/selectors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/shelve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/shlex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/signal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sitecustomize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/smtpd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/smtplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sndhdr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/socket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/socketserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sre_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sre_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sre_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/stringprep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/struct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/subprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sunau.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/symbol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/symtable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tabnanny.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/telnetlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tempfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/textwrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/threading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/timeit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tokenize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/trace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/traceback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tracemalloc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/tty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/turtle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/uu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/uuid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/warnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/wave.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/weakref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/webbrowser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/xdrlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/zipapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test/zipfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/__future__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/__phello__.foo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_bootlocale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_collections_abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_compat_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_compression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_dummy_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_markupbase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_osx_support.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_pydecimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_pyio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_sitebuiltins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_strptime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_sysconfigdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_threading_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/_weakrefset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/aifc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/antigravity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/argparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/ast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/asynchat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/asyncore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/base64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/bdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/binhex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/bisect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/bz2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/cProfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/calendar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/cgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/cgitb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/chunk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/codecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/codeop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/colorsys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/compileall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/configparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/contextlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/copyreg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/crypt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/decimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/difflib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/dis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/doctest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/dummy_threading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/enum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/filecmp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/fileinput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/fnmatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/fractions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/ftplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/functools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/genericpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/getopt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/getpass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/gettext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/glob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/gzip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/hashlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/heapq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/hmac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/imaplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/imghdr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/imp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/inspect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/linecache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/locale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/lzma.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/macpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/macurl2path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/mailbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/mailcap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/mimetypes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/modulefinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/netrc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/nntplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/ntpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/nturl2path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/opcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/operator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/optparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pathlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pickletools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pipes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pkgutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/platform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/plistlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/poplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/posixpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pstats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/py_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pyclbr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/pydoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/quopri.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/reprlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/rlcompleter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/runpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sched.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/selectors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/shelve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/shlex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/signal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sitecustomize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/smtpd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/smtplib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sndhdr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/socket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/socketserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sre_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sre_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sre_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/ssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/stringprep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/struct.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/subprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sunau.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/symbol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/symtable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tabnanny.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/telnetlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tempfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/textwrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/threading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/timeit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tokenize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/trace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/traceback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tracemalloc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/tty.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/turtle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/uu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/uuid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/warnings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/wave.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/weakref.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/webbrowser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/xdrlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/zipapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/多进程的学习和理解/test附件/zipfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/常见几种排序算法/test08_快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/常见几种排序算法/test08_快速排序.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/文件操作学习与理解/action_file_filerode.py" beforeDir="false" afterPath="$PROJECT_DIR$/文件操作学习与理解/action_file_filerode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/正则表达式/匹配一个邮箱.py" beforeDir="false" afterPath="$PROJECT_DIR$/正则表达式/匹配一个邮箱.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深拷贝和浅拷贝的学习和理解/深浅拷贝的学习和理解.py" beforeDir="false" afterPath="$PROJECT_DIR$/深拷贝和浅拷贝的学习和理解/深浅拷贝的学习和理解.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/递归理解_汉诺塔_杨辉三角/hannuota.py" beforeDir="false" afterPath="$PROJECT_DIR$/递归理解_汉诺塔_杨辉三角/hannuota.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/错误抛出和捕获/error_catch_raise.py" beforeDir="false" afterPath="$PROJECT_DIR$/错误抛出和捕获/error_catch_raise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/人脸1:1识别(阿里云)/人脸识别.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/回文数/huiwenshu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/回文数/huiwenshu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test06_二分查找(循环实现).py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test06_二分查找(循环实现).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test07_二分查找(递归实现).py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test07_二分查找(递归实现).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test08_快速排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test08_快速排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test09_归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_projects/常见几种排序算法/test09_归并排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../learn_projects/身份证实名认证/身份证实名认证(阿里云).py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +370,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -82,7 +379,7 @@
         <entry file="file://$PROJECT_DIR$/map_reduce学习与理解/reduce.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -91,7 +388,7 @@
         <entry file="file://$PROJECT_DIR$/map_reduce学习与理解/map.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -106,7 +403,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,29 +432,14 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learn_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn_base" type="462c0819:PsiDirectoryNode" />
-              <item name="map_reduce学习与理解" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -308,16 +590,17 @@
       <workItem from="1564909078835" duration="1704000" />
       <workItem from="1570519656874" duration="1585000" />
       <workItem from="1570610732696" duration="11469000" />
+      <workItem from="1596794558450" duration="681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14758000" />
+    <option name="totallyTimeSpent" value="15439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="-4" width="1315" height="773" extended-state="6" />
+    <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25893566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26370135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -332,7 +615,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32874617" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32874617" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32747602" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,6 +675,7 @@
     <SUITE FILE_PATH="coverage/learn_base$__new____.coverage" NAME="__new__() Coverage Results" MODIFIED="1570635616736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python的魔法方法" />
     <SUITE FILE_PATH="coverage/learn_base$os_path_dirname___file_____1_.coverage" NAME="os.path.dirname(__file__) (1) Coverage Results" MODIFIED="1570615307161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os.path" />
     <SUITE FILE_PATH="coverage/learn_base$generator.coverage" NAME="generator Coverage Results" MODIFIED="1570635148982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yield的学习与理解" />
+    <SUITE FILE_PATH="coverage/python_base$test.coverage" NAME="test Coverage Results" MODIFIED="1596794572570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testpython.txt">
@@ -401,9 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urllib练习与理解/urllib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/urllib练习与理解/urllib.py" />
     <entry file="file://$PROJECT_DIR$/os.path/os.path.dirname(__file__).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79">
@@ -465,48 +747,16 @@
     <entry file="file://$PROJECT_DIR$/多线程学习与理解/多线程.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/正则表达式/匹配一个邮箱.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/130.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/121.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/116.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/18.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/pic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212963" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/利用协程下载一个图片任务.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <element signature="e#23#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/正则表达式/匹配一个邮箱.py" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/130.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/121.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/116.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/18.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/8.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/image_download/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/pic" />
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/利用协程下载一个图片任务.py" />
     <entry file="file://$PROJECT_DIR$/多进程的学习和理解/多进程的学习和理解.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -514,34 +764,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/协程的学习和理解/利用协程同时下载多个图片任务.py">
+    <entry file="file://$PROJECT_DIR$/协程的学习和理解/利用协程同时下载多个图片任务.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_reduce学习与理解/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="138">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map_reduce学习与理解/reduce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/map_reduce学习与理解/map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="46">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>

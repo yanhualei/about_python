@@ -4,6 +4,7 @@ L = [1, 2, 3, 4]
 for i in L:
     if i != 4:
         L.remove(i)
+
 print("错误结果",L)
 # 结果[2,4]
 """

@@ -33,8 +33,8 @@ def merge(left,right):
     result += right[r:]
     return result
 
-# my_list = random.sample(range(2000000), 1000000)  # 从0-1999999中随机取出1000000个数据，并且返回
-my_list = [4,5,9,2,1]
+my_list = random.sample(range(200000), 50000)
+# my_list = [4,5,9,2,1]
 result = merge_sort(my_list)
 print(result)
 

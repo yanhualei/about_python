@@ -1,11 +1,11 @@
-
 import threading
 import time
 """每个程序运行至少会有一个进程和一个线程"""
-print("演示多线程运行过程，从而理解多线程")
+
+
 def sing():
     for i in range(5):
-        print(threading.current_thread().name, ":-----正在唱歌-----",i)
+        print(threading.current_thread().name, ":-----正在喝水-----",i)
         time.sleep(1)
 
 
