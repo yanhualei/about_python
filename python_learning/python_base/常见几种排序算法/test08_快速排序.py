@@ -54,8 +54,8 @@ def quick_sort2(qlist):
 # 选择第一个元素当参考值
 # 小于参考值的放左边
 # 大于参考值的放右边
-quick_sort3 = lambda array:array if len(array)<=1 else quick_sort3([l for l in array[1:] if l<array[0]])\
-+ [array[0]] + quick_sort3([r for r in array[1:] if r>=array[0]])
+quick_sort3 = lambda array : array if len(array) <= 1 else quick_sort3([l for l in array[1:] if l<array[0]])\
++ [array[0]] + quick_sort3([r for r in array[1:] if r >= array[0]])
 
 
 def quick_sort4(array, l, r):
